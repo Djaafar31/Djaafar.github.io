@@ -1,0 +1,186 @@
+
+#article .photos
+{
+  float: left;
+  width : 50%;
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  height: 100%;
+  margin-right: 2rem;
+	
+
+}
+#article .description
+{
+  display: inline-block;
+  width: 40%;
+  position: fixed;
+  float: left;
+
+
+}
+.photos img
+{
+  width: 100%;
+  image-orientation: 90deg;
+
+}
+
+
+
+.description h5
+{
+  background: white;
+  text-transform: uppercase;
+  font-size : 0.75rem;
+  display: inline-block;
+  padding: 0.4rem 0.5rem;
+  font-weight: 700;
+  color: black;
+}
+
+.description h1
+{
+
+  font-size : 2.09rem;
+  font-weight: 800;
+  color : black ;
+  margin: 1.2rem 0 ;
+
+}
+
+.description p
+{
+  font-weight: 100;
+  line-height: 1.2;
+  text-align: justify;
+  color : black;
+}
+.description p , .description h1
+{
+  width: auto;
+}
+
+
+
+.description .titre
+{
+  font-size : 1rem;
+  font-weight: 900;
+}
+.tailles
+{
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.tailles li
+{
+
+  border-radius : 50%;
+  height: 1.9rem;
+  width : 2rem;
+  padding: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  color : black;
+}
+
+
+.tailles li:hover , .tailles li:visited
+{
+  background-color: red !important;
+	width : 2.5rem !important;
+}
+
+
+
+.video
+{
+  background-color : black;
+  color : white;
+  width : 100%;
+  display: inline-block;
+  position: relative;
+}
+video
+{
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+.footer footer
+{
+  background-color : black ;
+  height: 10rem;
+  width : 100%;
+  display: inline-flex;
+  align-self: flex-end;
+  position: relative;
+  color: black;
+ 
+}
+
+@media screen and (max-width : 980px)
+{
+	#article .description , #article .photos
+	{ 
+		width : auto;
+
+	}
+	
+	.photos
+	{
+		position: relative;
+		padding: 1rem;
+		margin: 0 auto 2em;
+		border: 1px solid #000000;
+		
+		background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+		box-shadow: 0 0 3px black;
+	}
+	
+	
+	#article .description
+	{
+		margin : 1.5rem;
+		position : relative;
+		
+	}
+	.description h1
+	{
+		font-weight: normal;
+		font-size : 2.5rem;
+	}
+	.description p, .description h1
+	{
+		width : auto;
+	}
+}
+
+@media screen and (max-width : 1210px)
+{
+	#article .description 
+	{
+		position : relative;
+		
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	#article .description 
+	{
+		position: relative;
+		
+	}
+	#article
+	{
+		position: relative;
+	}
+}

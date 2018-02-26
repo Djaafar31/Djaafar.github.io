@@ -1,0 +1,92 @@
+body
+{
+	background-image: url(../img/image.jpg);
+	background-size: cover;
+	
+}
+
+.formulaire form 
+{
+	width : 50%;
+	height: 39rem;
+	margin: auto;
+	padding-top : 1rem;
+	background: none;
+	box-sizing: border-box;
+	color: #a28a64 ;
+	
+}
+
+.formulaire input
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.5rem;
+	width: 15rem;
+	border : 0.2rem solid black;
+  	color : white;;
+  	padding : 1rem;
+  	background-color: #a28a64 ;
+	text-transform: uppercase;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 0.66rem;
+}
+
+form .button2
+{
+  border : 0.2rem solid  black;
+  color: black;
+  background-color: #a28a64;
+  font-size: 0.60rem;
+	
+}
+
+.titre
+{
+	border : 0 solid whiteß;
+	margin: 0 12rem 1rem 12rem;
+	padding: 1rem;
+	background: black;
+	color : #a28a64;
+	font-size:0.9rem;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+
+}
+
+@media screen and (max-width : 1150px)
+{
+	.titre
+	{
+		margin: auto;
+		
+	}
+	
+}
+
+@media screen and (max-width : 558px)
+{
+	.formulaire input
+	{
+		width: auto;
+		height: 0.5rem;
+	}
+	
+	.titre
+	{
+		font-size: 0.9rem;
+		margin: auto;
+		
+	}
+	
+	form .button1,form .button2
+	{
+		padding-bottom: 2rem;
+	}
+	
+}
+	
+
